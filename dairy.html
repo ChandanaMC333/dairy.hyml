@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Diary</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>My Personal Diary</h1>
+	</header>
+	<main>
+		<section class="diary-entry">
+			<h2>Entry Title</h2>
+			<p>Entry Date: <span id="entry-date"></span></p>
+			<textarea id="entry-content" placeholder="Write your thoughts and feelings here..."></textarea>
+			<button id="save-entry">Save Entry</button>
+		</section>
+		<section class="diary-entries">
+			<h2>Previous Entries</h2>
+			<ul id="entry-list">
+				<!-- List of previous diary entries will be displayed here -->
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2024 My Personal Diary</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
